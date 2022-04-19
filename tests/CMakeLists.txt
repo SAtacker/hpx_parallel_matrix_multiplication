@@ -1,0 +1,5 @@
+add_executable(unit_test tests.cpp)
+add_executable(mult_test mult_test.cpp)
+target_link_libraries(mult_test matrix)
+target_link_libraries(unit_test matrix)
+include_directories(${CMAKE_SOURCE_DIR}/lib)
