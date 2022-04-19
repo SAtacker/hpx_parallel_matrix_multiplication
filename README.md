@@ -14,3 +14,11 @@ cmake .. DHPX_DIR=/home/extended/libs/lib/cmake/HPX -DCMAKE_CXX_COMPILER=$(which
 make -j
 make test
 ```
+
+<p align="center">
+  <img src="./assets/example.png" width="800" title="example">
+</p>
+
+<p align="center">
+  <img src="./assets/tests.png" width="800" title="tests">
+</p>
